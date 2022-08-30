@@ -7,8 +7,57 @@
     <data></data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:background="@color/white"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/select_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="농장제어"
+            android:textColor="@color/main_color"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Switch
+            android:id="@+id/switch_led"
+            android:textStyle="bold"
+            android:text="LED"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/select_title"
+            android:track="@drawable/switch_track"
+            android:thumb="@drawable/switch_thumb" />
+
+        <Switch
+            android:id="@+id/switch_pump"
+            android:textStyle="bold"
+            android:text="워터 펌프"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/switch_led"
+            android:track="@drawable/switch_track"
+            android:thumb="@drawable/switch_thumb" />
+
+        <Switch
+            android:id="@+id/switch_ventilator"
+            android:textStyle="bold"
+            android:text="환풍기"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/switch_pump"
+            android:track="@drawable/switch_track"
+            android:thumb="@drawable/switch_thumb" />
 
 
 

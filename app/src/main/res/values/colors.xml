@@ -13,4 +13,5 @@
     <color name="round_check_color">#C5E6F6</color>
     <color name="thermometer_color">#8DCEEE</color>
     <color name="main_color">#4FB8F7</color>
+    <color name="background_track">#D7DCE7</color>
 </resources>
