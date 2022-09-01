@@ -18,10 +18,16 @@ class ControlFarmActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_control_farm)
 
-        binding.controlVp.adapter = ViewPagerAdapter(this)
+
 
         initListener()
+        initVpAndIndicator()
 
+    }
+
+    private fun initVpAndIndicator(){
+        binding.controlVp.adapter = ViewPagerAdapter(this)
+        binding.controlVpIndicator.attachTo(binding.controlVp)
     }
 
 

@@ -8,10 +8,12 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
+
     <color name="background_main">#F0F9FE</color>
     <color name="background_sub">#80CAEEFF</color>
     <color name="round_check_color">#C5E6F6</color>
     <color name="thermometer_color">#8DCEEE</color>
     <color name="main_color">#4FB8F7</color>
     <color name="background_track">#D7DCE7</color>
+    <color name="background_img">#EDF3FF</color>
 </resources>
