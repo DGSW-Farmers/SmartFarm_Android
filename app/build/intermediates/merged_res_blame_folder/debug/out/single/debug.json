@@ -1,0 +1,150 @@
+[
+    {
+        "merged": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-merged_res-34:\\drawable_switch_thumb_off.xml.flat",
+        "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-main-36:\\drawable\\switch_thumb_off.xml"
+    },
+    {
+        "merged": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-merged_res-34:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-main-36:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-merged_res-34:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-main-36:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-merged_res-34:\\drawable_water_pump.png.flat",
+        "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-main-36:\\drawable\\water_pump.png"
+    },
+    {
+        "merged": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-merged_res-34:\\drawable_led.png.flat",
+        "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-main-36:\\drawable\\led.png"
+    },
+    {
+        "merged": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-merged_res-34:\\drawable_switch_track_on.xml.flat",
+        "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-main-36:\\drawable\\switch_track_on.xml"
+    },
+    {
+        "merged": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-merged_res-34:\\layout_activity_control_farm.xml.flat",
+        "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-main-36:\\layout\\activity_control_farm.xml"
+    },
+    {
+        "merged": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-merged_res-34:\\drawable_switch_thumb_on.xml.flat",
+        "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-main-36:\\drawable\\switch_thumb_on.xml"
+    },
+    {
+        "merged": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-merged_res-34:\\drawable_ic_change.xml.flat",
+        "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-main-36:\\drawable\\ic_change.xml"
+    },
+    {
+        "merged": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-merged_res-34:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-pngs-29:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-merged_res-34:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-main-36:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-merged_res-34:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-main-36:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-merged_res-34:\\layout_fragment_control_farm.xml.flat",
+        "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-main-36:\\layout\\fragment_control_farm.xml"
+    },
+    {
+        "merged": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-merged_res-34:\\layout_fragment_state_farm_first.xml.flat",
+        "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-main-36:\\layout\\fragment_state_farm_first.xml"
+    },
+    {
+        "merged": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-merged_res-34:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-main-36:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-merged_res-34:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-main-36:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-merged_res-34:\\drawable_background_sub.xml.flat",
+        "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-main-36:\\drawable\\background_sub.xml"
+    },
+    {
+        "merged": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-merged_res-34:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-main-36:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-merged_res-34:\\drawable_ventilator.png.flat",
+        "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-main-36:\\drawable\\ventilator.png"
+    },
+    {
+        "merged": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-merged_res-34:\\drawable_background_img.xml.flat",
+        "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-main-36:\\drawable\\background_img.xml"
+    },
+    {
+        "merged": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-merged_res-34:\\drawable_background_btn.xml.flat",
+        "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-main-36:\\drawable\\background_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-merged_res-34:\\layout_fragment_state_farm_second.xml.flat",
+        "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-main-36:\\layout\\fragment_state_farm_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-merged_res-34:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-main-36:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-merged_res-34:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-main-36:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-merged_res-34:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-main-36:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "kr.hs.dgsw.campus.smartfarm.app-merged_res-34:/layout_activity_control_farm.xml.flat",
+        "source": "kr.hs.dgsw.campus.smartfarm.app-main-36:/layout/activity_control_farm.xml"
+    },
+    {
+        "merged": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-merged_res-34:\\drawable_switch_thumb.xml.flat",
+        "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-main-36:\\drawable\\switch_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-merged_res-34:\\drawable_switch_track.xml.flat",
+        "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-main-36:\\drawable\\switch_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-merged_res-34:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-main-36:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-merged_res-34:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-main-36:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-merged_res-34:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-main-36:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-merged_res-34:\\drawable_check_round.xml.flat",
+        "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-main-36:\\drawable\\check_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-merged_res-34:\\drawable_top_round.xml.flat",
+        "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-main-36:\\drawable\\top_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-merged_res-34:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-main-36:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-merged_res-34:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-main-36:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-merged_res-34:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-main-36:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-merged_res-34:\\drawable_switch_track_off.xml.flat",
+        "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-main-36:\\drawable\\switch_track_off.xml"
+    }
+]
