@@ -14,7 +14,7 @@ public class FragmentControlFarmBindingImpl extends FragmentControlFarmBinding  
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.select_title, 1);
+        sViewsWithIds.put(R.id.control_title, 1);
         sViewsWithIds.put(R.id.background_img_led, 2);
         sViewsWithIds.put(R.id.switch_led, 3);
         sViewsWithIds.put(R.id.background_img_pump, 4);

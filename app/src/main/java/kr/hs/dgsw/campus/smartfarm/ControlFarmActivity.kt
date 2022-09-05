@@ -25,7 +25,7 @@ class ControlFarmActivity : AppCompatActivity(), View.OnClickListener {
 
     }
 
-    private fun initVpAndIndicator(){
+    private fun initVpAndIndicator() {
         binding.controlVp.adapter = ViewPagerAdapter(this)
         binding.controlVpIndicator.attachTo(binding.controlVp)
     }
@@ -70,13 +70,13 @@ class ControlFarmActivity : AppCompatActivity(), View.OnClickListener {
 
             return when (position) {
                 0 -> {
-                    ControlFarmFragment()
-                }
-                1 -> {
                     StateFarmFirstFragment()
                 }
-                else -> {
+                1 -> {
                     StateFarmSecondFragment()
+                }
+                else -> {
+                    ControlFarmFragment()
                 }
             }
         }

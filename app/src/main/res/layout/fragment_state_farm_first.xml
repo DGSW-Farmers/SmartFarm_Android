@@ -1,10 +1,213 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
     tools:context=".StateFarmFirstFragment">
 
+    <data></data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/state_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="농장상태"
+            android:textColor="@color/main_color"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/background_img_humidity"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginVertical="1dp"
+            android:layout_marginStart="20dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/background_img"
+            app:layout_constraintBottom_toBottomOf="@id/humidity_title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/humidity_title" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_margin="3dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/water"
+            app:layout_constraintBottom_toBottomOf="@id/background_img_humidity"
+            app:layout_constraintEnd_toEndOf="@id/background_img_humidity"
+            app:layout_constraintStart_toStartOf="@id/background_img_humidity"
+            app:layout_constraintTop_toTopOf="@id/background_img_humidity" />
+
+        <TextView
+            android:id="@+id/humidity_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:text="습도 현황"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@id/background_img_humidity"
+            app:layout_constraintTop_toBottomOf="@id/state_title" />
+
+        <ProgressBar
+            android:layout_marginTop="20dp"
+            android:id="@+id/progress_humidity"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:max="100"
+            android:progressDrawable="@drawable/progressbar_green"
+            android:progress="50"
+            app:layout_constraintEnd_toStartOf="@id/tv_humidity_value"
+            app:layout_constraintStart_toStartOf="@id/humidity_title"
+            app:layout_constraintTop_toBottomOf="@id/humidity_title" />
+
+        <TextView
+            android:id="@+id/tv_humidity_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:text="50%"
+            android:textColor="@color/value_gray"
+            app:layout_constraintBottom_toBottomOf="@id/progress_humidity"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/progress_humidity" />
+
+        <ImageView
+            android:id="@+id/background_img_temperature"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginVertical="1dp"
+            android:layout_marginStart="20dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/background_img"
+            app:layout_constraintBottom_toBottomOf="@id/temperature_title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/temperature_title" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/wave"
+            app:layout_constraintBottom_toBottomOf="@id/background_img_temperature"
+            app:layout_constraintEnd_toEndOf="@id/background_img_temperature"
+            app:layout_constraintStart_toStartOf="@id/background_img_temperature"
+            app:layout_constraintTop_toTopOf="@id/background_img_temperature" />
+
+        <TextView
+            android:id="@+id/temperature_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:text="수온 현황"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@id/background_img_humidity"
+            app:layout_constraintTop_toBottomOf="@id/progress_humidity" />
+
+        <ProgressBar
+            android:layout_marginTop="20dp"
+            android:id="@+id/progress_temperature"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:max="50"
+            android:progressDrawable="@drawable/progressbar_yellow"
+            android:progress="25"
+            app:layout_constraintEnd_toStartOf="@id/tv_temperature_value"
+            app:layout_constraintStart_toStartOf="@id/temperature_title"
+            app:layout_constraintTop_toBottomOf="@id/temperature_title" />
+
+        <TextView
+            android:id="@+id/tv_temperature_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:text="25°C"
+            android:textColor="@color/value_gray"
+            app:layout_constraintBottom_toBottomOf="@id/progress_temperature"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/progress_temperature" />
 
 
-</FrameLayout>
+        <ImageView
+            android:id="@+id/background_img_level"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginVertical="1dp"
+            android:layout_marginStart="20dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/background_img"
+            app:layout_constraintBottom_toBottomOf="@id/level_title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/level_title" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_margin="3dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/water"
+            app:layout_constraintBottom_toBottomOf="@id/background_img_level"
+            app:layout_constraintEnd_toEndOf="@id/background_img_level"
+            app:layout_constraintStart_toStartOf="@id/background_img_level"
+            app:layout_constraintTop_toTopOf="@id/background_img_level" />
+
+        <TextView
+            android:id="@+id/level_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:text="수위 현황"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@id/background_img_level"
+            app:layout_constraintTop_toBottomOf="@id/progress_temperature" />
+
+        <ProgressBar
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/progress_level"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:max="20"
+            android:progressDrawable="@drawable/progressbar_blue"
+            android:progress="10"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/tv_level_value"
+            app:layout_constraintStart_toStartOf="@id/level_title"
+            app:layout_constraintTop_toBottomOf="@id/level_title" />
+
+        <TextView
+            android:id="@+id/tv_level_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:text="10L"
+            android:textColor="@color/value_gray"
+            app:layout_constraintBottom_toBottomOf="@id/progress_level"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/progress_level" />
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>

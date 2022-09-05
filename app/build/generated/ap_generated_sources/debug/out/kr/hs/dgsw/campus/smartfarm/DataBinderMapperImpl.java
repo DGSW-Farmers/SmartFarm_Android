@@ -18,6 +18,8 @@ import java.util.List;
 import kr.hs.dgsw.campus.smartfarm.databinding.ActivityControlFarmBindingImpl;
 import kr.hs.dgsw.campus.smartfarm.databinding.ActivityMainBindingImpl;
 import kr.hs.dgsw.campus.smartfarm.databinding.FragmentControlFarmBindingImpl;
+import kr.hs.dgsw.campus.smartfarm.databinding.FragmentStateFarmFirstBindingImpl;
+import kr.hs.dgsw.campus.smartfarm.databinding.FragmentStateFarmSecondBindingImpl;
 
 public class DataBinderMapperImpl extends DataBinderMapper {
   private static final int LAYOUT_ACTIVITYCONTROLFARM = 1;
@@ -26,12 +28,18 @@ public class DataBinderMapperImpl extends DataBinderMapper {
 
   private static final int LAYOUT_FRAGMENTCONTROLFARM = 3;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(3);
+  private static final int LAYOUT_FRAGMENTSTATEFARMFIRST = 4;
+
+  private static final int LAYOUT_FRAGMENTSTATEFARMSECOND = 5;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(5);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(kr.hs.dgsw.campus.smartfarm.R.layout.activity_control_farm, LAYOUT_ACTIVITYCONTROLFARM);
     INTERNAL_LAYOUT_ID_LOOKUP.put(kr.hs.dgsw.campus.smartfarm.R.layout.activity_main, LAYOUT_ACTIVITYMAIN);
     INTERNAL_LAYOUT_ID_LOOKUP.put(kr.hs.dgsw.campus.smartfarm.R.layout.fragment_control_farm, LAYOUT_FRAGMENTCONTROLFARM);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(kr.hs.dgsw.campus.smartfarm.R.layout.fragment_state_farm_first, LAYOUT_FRAGMENTSTATEFARMFIRST);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(kr.hs.dgsw.campus.smartfarm.R.layout.fragment_state_farm_second, LAYOUT_FRAGMENTSTATEFARMSECOND);
   }
 
   @Override
@@ -60,6 +68,18 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new FragmentControlFarmBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for fragment_control_farm is invalid. Received: " + tag);
+        }
+        case  LAYOUT_FRAGMENTSTATEFARMFIRST: {
+          if ("layout/fragment_state_farm_first_0".equals(tag)) {
+            return new FragmentStateFarmFirstBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for fragment_state_farm_first is invalid. Received: " + tag);
+        }
+        case  LAYOUT_FRAGMENTSTATEFARMSECOND: {
+          if ("layout/fragment_state_farm_second_0".equals(tag)) {
+            return new FragmentStateFarmSecondBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for fragment_state_farm_second is invalid. Received: " + tag);
         }
       }
     }
@@ -114,12 +134,14 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(3);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(5);
 
     static {
       sKeys.put("layout/activity_control_farm_0", kr.hs.dgsw.campus.smartfarm.R.layout.activity_control_farm);
       sKeys.put("layout/activity_main_0", kr.hs.dgsw.campus.smartfarm.R.layout.activity_main);
       sKeys.put("layout/fragment_control_farm_0", kr.hs.dgsw.campus.smartfarm.R.layout.fragment_control_farm);
+      sKeys.put("layout/fragment_state_farm_first_0", kr.hs.dgsw.campus.smartfarm.R.layout.fragment_state_farm_first);
+      sKeys.put("layout/fragment_state_farm_second_0", kr.hs.dgsw.campus.smartfarm.R.layout.fragment_state_farm_second);
     }
   }
 }

@@ -7,7 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import kr.hs.dgsw.campus.smartfarm.databinding.FragmentControlFarmBinding
 
-
 class ControlFarmFragment : Fragment() {
     lateinit var binding: FragmentControlFarmBinding
 

@@ -26,7 +26,7 @@ public abstract class FragmentControlFarmBinding extends ViewDataBinding {
   public final ImageView backgroundImgVentilator;
 
   @NonNull
-  public final TextView selectTitle;
+  public final TextView controlTitle;
 
   @NonNull
   public final Switch switchLed;
@@ -39,12 +39,12 @@ public abstract class FragmentControlFarmBinding extends ViewDataBinding {
 
   protected FragmentControlFarmBinding(Object _bindingComponent, View _root, int _localFieldCount,
       ImageView backgroundImgLed, ImageView backgroundImgPump, ImageView backgroundImgVentilator,
-      TextView selectTitle, Switch switchLed, Switch switchPump, Switch switchVentilator) {
+      TextView controlTitle, Switch switchLed, Switch switchPump, Switch switchVentilator) {
     super(_bindingComponent, _root, _localFieldCount);
     this.backgroundImgLed = backgroundImgLed;
     this.backgroundImgPump = backgroundImgPump;
     this.backgroundImgVentilator = backgroundImgVentilator;
-    this.selectTitle = selectTitle;
+    this.controlTitle = controlTitle;
     this.switchLed = switchLed;
     this.switchPump = switchPump;
     this.switchVentilator = switchVentilator;
