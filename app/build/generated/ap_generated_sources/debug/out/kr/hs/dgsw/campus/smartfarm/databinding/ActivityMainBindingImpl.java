@@ -17,42 +17,42 @@ public class ActivityMainBindingImpl extends ActivityMainBinding  {
         sViewsWithIds.put(R.id.change_btn, 1);
         sViewsWithIds.put(R.id.change_img, 2);
         sViewsWithIds.put(R.id.farm_title, 3);
-        sViewsWithIds.put(R.id.drawer, 4);
-        sViewsWithIds.put(R.id.top_layout, 5);
-        sViewsWithIds.put(R.id.bottom_layout, 6);
-        sViewsWithIds.put(R.id.select_title, 7);
-        sViewsWithIds.put(R.id.vegetable_layout, 8);
-        sViewsWithIds.put(R.id.lettuce_layout, 9);
-        sViewsWithIds.put(R.id.tomato_layout, 10);
-        sViewsWithIds.put(R.id.napa_cabbage_layout, 11);
-        sViewsWithIds.put(R.id.confirm_btn, 12);
+        sViewsWithIds.put(R.id.top_layout, 4);
+        sViewsWithIds.put(R.id.bottom_layout, 5);
+        sViewsWithIds.put(R.id.select_title, 6);
+        sViewsWithIds.put(R.id.vegetable_layout, 7);
+        sViewsWithIds.put(R.id.lettuce_layout, 8);
+        sViewsWithIds.put(R.id.tomato_layout, 9);
+        sViewsWithIds.put(R.id.napa_cabbage_layout, 10);
+        sViewsWithIds.put(R.id.confirm_btn, 11);
     }
     // views
+    @NonNull
+    private final androidx.constraintlayout.widget.ConstraintLayout mboundView0;
     // variables
     // values
     // listeners
     // Inverse Binding Event Handlers
 
     public ActivityMainBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 13, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 12, sIncludes, sViewsWithIds));
     }
     private ActivityMainBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
-            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[6]
+            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[5]
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[1]
             , (android.widget.ImageView) bindings[2]
-            , (androidx.appcompat.widget.AppCompatButton) bindings[12]
-            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[4]
+            , (androidx.appcompat.widget.AppCompatButton) bindings[11]
             , (android.widget.TextView) bindings[3]
-            , (android.widget.LinearLayout) bindings[9]
-            , (com.sothree.slidinguppanel.SlidingUpPanelLayout) bindings[0]
-            , (android.widget.LinearLayout) bindings[11]
-            , (android.widget.TextView) bindings[7]
-            , (android.widget.LinearLayout) bindings[10]
-            , (android.widget.LinearLayout) bindings[5]
             , (android.widget.LinearLayout) bindings[8]
+            , (android.widget.LinearLayout) bindings[10]
+            , (android.widget.TextView) bindings[6]
+            , (android.widget.LinearLayout) bindings[9]
+            , (android.widget.LinearLayout) bindings[4]
+            , (android.widget.LinearLayout) bindings[7]
             );
-        this.mainFrame.setTag(null);
+        this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
+        this.mboundView0.setTag(null);
         setRootTag(root);
         // listeners
         invalidateAll();

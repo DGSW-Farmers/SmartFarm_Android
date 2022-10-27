@@ -24,6 +24,17 @@ class StateFarmSecondFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        val bundle: Bundle = requireArguments()
+        val liquid: Int = bundle.getFloat("liquid").toInt()
+        val sunlight : Int = bundle.getFloat("sunlight ").toInt()
+
+        binding.progressPh.progress = liquid
+        binding.tvPhValue.text = "${liquid}ph"
+
+        binding.progressSunshine.progress = sunlight
+        binding.tvSunshineValue.text = "${sunlight}"
+
+
     }
 
 }

@@ -1231,10 +1231,14 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_green
 color background_img
-color background_main
+color background_main_blue
+color background_main_green
+color background_main_orange
 color background_material_dark
 color background_material_light
-color background_sub
+color background_sub_blue
+color background_sub_green
+color background_sub_orange
 color background_track
 color background_yellow
 color black
@@ -1297,6 +1301,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color half_blue
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color m3_appbar_overlay_color
@@ -1617,7 +1622,8 @@ color m3_timepicker_display_text_color
 color m3_timepicker_secondary_text_button_ripple_color
 color m3_timepicker_secondary_text_button_text_color
 color m3_tonal_button_ripple_color_selector
-color main_color
+color main_color_blue
+color main_color_green
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -2483,9 +2489,12 @@ drawable abc_vector_test
 drawable above_shadow
 drawable avd_hide_password
 drawable avd_show_password
+drawable back_arrow
 drawable background_btn
 drawable background_img
-drawable background_sub
+drawable background_sub_blue
+drawable background_sub_green
+drawable background_sub_orange
 drawable below_shadow
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -2502,6 +2511,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable dot_background
+drawable edit
 drawable ic_change
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
@@ -2516,6 +2526,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable led
 drawable lemon
+drawable lettuce
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -2557,9 +2568,14 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable plant
 drawable progressbar_blue
 drawable progressbar_green
+drawable progressbar_vertical
 drawable progressbar_yellow
+drawable right_round_blue
+drawable right_round_white
+drawable round_white
 drawable spring_dot_background
 drawable spring_dot_stroke_background
 drawable sun
@@ -2571,6 +2587,7 @@ drawable switch_track_off
 drawable switch_track_on
 drawable test_custom_background
 drawable test_level_drawable
+drawable thermometer
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable top_round
@@ -2662,12 +2679,15 @@ id animateToStart
 id antiClockwise
 id anticipate
 id arc
+id arrow_btn
 id asConfigured
 id async
 id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id back_btn
+id back_text
 id background
 id background_img_humidity
 id background_img_led
@@ -2729,7 +2749,6 @@ id content
 id contentPanel
 id contiguous
 id continuousVelocity
-id control_frame
 id control_title
 id control_vp
 id control_vp_indicator
@@ -2796,6 +2815,8 @@ id fill
 id fill_horizontal
 id fill_vertical
 id filled
+id first_floor_layout
+id first_floor_text
 id fitCenter
 id fitEnd
 id fitStart
@@ -2821,6 +2842,10 @@ id guideline
 id header_title
 id hidden
 id hideable
+id history_btn
+id history_layout
+id history_text
+id history_title
 id home
 id homeAsUp
 id honorRequest
@@ -2832,12 +2857,18 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id img_thermometer
 id immediateStop
 id included
 id info
 id invisible
 id inward
 id italic
+id item_end
+id item_img
+id item_start
+id item_state_layout
+id item_title
 id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
@@ -2853,7 +2884,6 @@ id line3
 id linear
 id listMode
 id list_item
-id main_frame
 id masked
 id match_constraint
 id match_parent
@@ -2961,8 +2991,10 @@ id progress_level
 id progress_ph
 id progress_sunshine
 id progress_temperature
+id progress_thermometer
 id radio
 id ratio
+id rcv_history
 id rectangles
 id reverseSawtooth
 id right
@@ -2991,6 +3023,8 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id second_floor_layout
+id second_floor_text
 id select_dialog_listview
 id select_title
 id selected
@@ -3075,6 +3109,8 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id third_floor_layout
+id third_floor_text
 id time
 id title
 id titleDividerNoCustom
@@ -3216,6 +3252,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_control_farm
+layout activity_history
 layout activity_main
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -3237,6 +3274,7 @@ layout dot_layout
 layout fragment_control_farm
 layout fragment_state_farm_first
 layout fragment_state_farm_second
+layout history_list_item
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -4648,6 +4686,7 @@ styleable WormDotsIndicator dotsClickable dotsColor dotsCornerRadius dotsSize do
 styleable include constraintSet
 xml backup_rules
 xml data_extraction_rules
+xml network_security_config
 xml standalone_badge
 xml standalone_badge_gravity_bottom_end
 xml standalone_badge_gravity_bottom_start

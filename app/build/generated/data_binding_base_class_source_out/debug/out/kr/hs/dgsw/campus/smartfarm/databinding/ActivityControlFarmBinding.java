@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -13,7 +14,6 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
 import androidx.viewpager2.widget.ViewPager2;
-import com.sothree.slidinguppanel.SlidingUpPanelLayout;
 import com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator;
 import java.lang.Deprecated;
 import java.lang.Object;
@@ -25,9 +25,6 @@ public abstract class ActivityControlFarmBinding extends ViewDataBinding {
 
   @NonNull
   public final ImageView changeImg;
-
-  @NonNull
-  public final SlidingUpPanelLayout controlFrame;
 
   @NonNull
   public final ViewPager2 controlVp;
@@ -42,20 +39,66 @@ public abstract class ActivityControlFarmBinding extends ViewDataBinding {
   public final TextView farmTitle;
 
   @NonNull
+  public final LinearLayout firstFloorLayout;
+
+  @NonNull
+  public final TextView firstFloorText;
+
+  @NonNull
+  public final ConstraintLayout historyBtn;
+
+  @NonNull
+  public final TextView historyText;
+
+  @NonNull
+  public final ImageView imgThermometer;
+
+  @NonNull
+  public final ProgressBar progressThermometer;
+
+  @NonNull
+  public final LinearLayout secondFloorLayout;
+
+  @NonNull
+  public final TextView secondFloorText;
+
+  @NonNull
+  public final TextView temperatureTitle;
+
+  @NonNull
+  public final LinearLayout thirdFloorLayout;
+
+  @NonNull
+  public final TextView thirdFloorText;
+
+  @NonNull
   public final LinearLayout topLayout;
 
   protected ActivityControlFarmBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      ConstraintLayout changeBtn, ImageView changeImg, SlidingUpPanelLayout controlFrame,
-      ViewPager2 controlVp, WormDotsIndicator controlVpIndicator, ConstraintLayout drawer,
-      TextView farmTitle, LinearLayout topLayout) {
+      ConstraintLayout changeBtn, ImageView changeImg, ViewPager2 controlVp,
+      WormDotsIndicator controlVpIndicator, ConstraintLayout drawer, TextView farmTitle,
+      LinearLayout firstFloorLayout, TextView firstFloorText, ConstraintLayout historyBtn,
+      TextView historyText, ImageView imgThermometer, ProgressBar progressThermometer,
+      LinearLayout secondFloorLayout, TextView secondFloorText, TextView temperatureTitle,
+      LinearLayout thirdFloorLayout, TextView thirdFloorText, LinearLayout topLayout) {
     super(_bindingComponent, _root, _localFieldCount);
     this.changeBtn = changeBtn;
     this.changeImg = changeImg;
-    this.controlFrame = controlFrame;
     this.controlVp = controlVp;
     this.controlVpIndicator = controlVpIndicator;
     this.drawer = drawer;
     this.farmTitle = farmTitle;
+    this.firstFloorLayout = firstFloorLayout;
+    this.firstFloorText = firstFloorText;
+    this.historyBtn = historyBtn;
+    this.historyText = historyText;
+    this.imgThermometer = imgThermometer;
+    this.progressThermometer = progressThermometer;
+    this.secondFloorLayout = secondFloorLayout;
+    this.secondFloorText = secondFloorText;
+    this.temperatureTitle = temperatureTitle;
+    this.thirdFloorLayout = thirdFloorLayout;
+    this.thirdFloorText = thirdFloorText;
     this.topLayout = topLayout;
   }
 

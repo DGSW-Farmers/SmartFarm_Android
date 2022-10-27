@@ -13,7 +13,6 @@ import androidx.appcompat.widget.AppCompatButton;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
-import com.sothree.slidinguppanel.SlidingUpPanelLayout;
 import java.lang.Deprecated;
 import java.lang.Object;
 import kr.hs.dgsw.campus.smartfarm.R;
@@ -32,16 +31,10 @@ public abstract class ActivityMainBinding extends ViewDataBinding {
   public final AppCompatButton confirmBtn;
 
   @NonNull
-  public final ConstraintLayout drawer;
-
-  @NonNull
   public final TextView farmTitle;
 
   @NonNull
   public final LinearLayout lettuceLayout;
-
-  @NonNull
-  public final SlidingUpPanelLayout mainFrame;
 
   @NonNull
   public final LinearLayout napaCabbageLayout;
@@ -60,19 +53,16 @@ public abstract class ActivityMainBinding extends ViewDataBinding {
 
   protected ActivityMainBinding(Object _bindingComponent, View _root, int _localFieldCount,
       ConstraintLayout bottomLayout, ConstraintLayout changeBtn, ImageView changeImg,
-      AppCompatButton confirmBtn, ConstraintLayout drawer, TextView farmTitle,
-      LinearLayout lettuceLayout, SlidingUpPanelLayout mainFrame, LinearLayout napaCabbageLayout,
-      TextView selectTitle, LinearLayout tomatoLayout, LinearLayout topLayout,
-      LinearLayout vegetableLayout) {
+      AppCompatButton confirmBtn, TextView farmTitle, LinearLayout lettuceLayout,
+      LinearLayout napaCabbageLayout, TextView selectTitle, LinearLayout tomatoLayout,
+      LinearLayout topLayout, LinearLayout vegetableLayout) {
     super(_bindingComponent, _root, _localFieldCount);
     this.bottomLayout = bottomLayout;
     this.changeBtn = changeBtn;
     this.changeImg = changeImg;
     this.confirmBtn = confirmBtn;
-    this.drawer = drawer;
     this.farmTitle = farmTitle;
     this.lettuceLayout = lettuceLayout;
-    this.mainFrame = mainFrame;
     this.napaCabbageLayout = napaCabbageLayout;
     this.selectTitle = selectTitle;
     this.tomatoLayout = tomatoLayout;

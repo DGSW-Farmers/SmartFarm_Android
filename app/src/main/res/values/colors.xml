@@ -8,11 +8,16 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="background_main">#F0F9FE</color>
-    <color name="background_sub">#80CAEEFF</color>
-    <color name="round_check_color">#C5E6F6</color>
+    <color name="background_main_blue">#F0F9FE</color>
+    <color name="background_sub_blue">#80CAEEFF</color>
+    <color name="background_main_green">#E9FBF4</color>
+    <color name="background_sub_green">#C1F4DF</color>
+    <color name="background_main_orange">#FFF9E5</color>
+    <color name="background_sub_orange">#FFF0BB</color>
+    <color name="round_check_color">#C2F4DF</color>
     <color name="thermometer_color">#8DCEEE</color>
-    <color name="main_color">#4FB8F7</color>
+    <color name="main_color_blue">#4FB8F7</color>
+    <color name="main_color_green">#7BD8B1</color>
     <color name="background_track">#D7DCE7</color>
     <color name="background_img">#EDF3FF</color>
     <color name="value_gray">#798BB0</color>
@@ -22,4 +27,5 @@
     <color name="progress_yellow">#FFCD1E</color>
     <color name="background_blue">#EDF3FF</color>
     <color name="progress_blue">#B34FB8F7</color>
+    <color name="half_blue">#BFE3F6</color>
 </resources>

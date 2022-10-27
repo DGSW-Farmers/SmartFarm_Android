@@ -1,9 +1,152 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".StateFarmSecondFragment">
+
+                                                  
+                                                       
+                                             
+
+                 
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" android:tag="layout/fragment_state_farm_second_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" tools:context=".StateFarmSecondFragment">
+
+        <TextView
+            android:id="@+id/state_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="농장상태"
+            android:textColor="@color/main_color_blue"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/background_img_ph"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginVertical="1dp"
+            android:layout_marginStart="20dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/background_img"
+            app:layout_constraintBottom_toBottomOf="@id/ph_title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/ph_title" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_margin="4dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/lemon"
+            app:layout_constraintBottom_toBottomOf="@id/background_img_ph"
+            app:layout_constraintEnd_toEndOf="@id/background_img_ph"
+            app:layout_constraintStart_toStartOf="@id/background_img_ph"
+            app:layout_constraintTop_toTopOf="@id/background_img_ph" />
+
+        <TextView
+            android:id="@+id/ph_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:text="산성도 현황"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@id/background_img_ph"
+            app:layout_constraintTop_toBottomOf="@id/state_title" />
+
+        <ProgressBar
+            android:layout_marginTop="20dp"
+            android:id="@+id/progress_ph"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:max="14"
+            android:progressDrawable="@drawable/progressbar_green"
+            android:progress="7"
+            app:layout_constraintEnd_toStartOf="@id/tv_ph_value"
+            app:layout_constraintStart_toStartOf="@id/ph_title"
+            app:layout_constraintTop_toBottomOf="@id/ph_title" />
+
+        <TextView
+            android:id="@+id/tv_ph_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:text="7ph"
+            android:textColor="@color/value_gray"
+            app:layout_constraintBottom_toBottomOf="@id/progress_ph"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/progress_ph" />
+
+        <ImageView
+            android:id="@+id/background_img_sunshine"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginVertical="1dp"
+            android:layout_marginStart="20dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/background_img"
+            app:layout_constraintBottom_toBottomOf="@id/sunshine_title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/sunshine_title" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/sun"
+            android:layout_margin="2dp"
+            app:layout_constraintBottom_toBottomOf="@id/background_img_sunshine"
+            app:layout_constraintEnd_toEndOf="@id/background_img_sunshine"
+            app:layout_constraintStart_toStartOf="@id/background_img_sunshine"
+            app:layout_constraintTop_toTopOf="@id/background_img_sunshine" />
+
+        <TextView
+            android:id="@+id/sunshine_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:text="일조량 현황"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@id/background_img_sunshine"
+            app:layout_constraintTop_toBottomOf="@id/progress_ph" />
+
+        <ProgressBar
+            android:layout_marginTop="20dp"
+            android:id="@+id/progress_sunshine"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:max="10240"
+            android:progressDrawable="@drawable/progressbar_yellow"
+            android:progress="25"
+            app:layout_constraintEnd_toStartOf="@id/tv_sunshine_value"
+            app:layout_constraintStart_toStartOf="@id/sunshine_title"
+            app:layout_constraintTop_toBottomOf="@id/sunshine_title" />
+
+        <TextView
+            android:id="@+id/tv_sunshine_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:text="25%"
+            android:textColor="@color/value_gray"
+            app:layout_constraintBottom_toBottomOf="@id/progress_sunshine"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/progress_sunshine" />
 
 
-</FrameLayout>
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+         

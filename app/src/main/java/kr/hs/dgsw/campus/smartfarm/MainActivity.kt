@@ -22,7 +22,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     private fun initListener() {
-        binding.topLayout.setOnClickListener(this)
         binding.lettuceLayout.setOnClickListener(this)
         binding.tomatoLayout.setOnClickListener(this)
         binding.napaCabbageLayout.setOnClickListener(this)
@@ -30,23 +29,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         binding.changeBtn.setOnClickListener(this)
     }
 
-    private fun changeState() {
-        val state = binding.mainFrame.panelState
-        // 닫힌 상태일 경우 열기
-        if (state == SlidingUpPanelLayout.PanelState.COLLAPSED) {
-            binding.mainFrame.panelState = SlidingUpPanelLayout.PanelState.ANCHORED
-        }
-        // 열린 상태일 경우 닫기
-        else if (state == SlidingUpPanelLayout.PanelState.EXPANDED) {
-            binding.mainFrame.panelState = SlidingUpPanelLayout.PanelState.COLLAPSED
-        }
-    }
-
     override fun onClick(p0: View?) {
         when (p0) {
-            binding.topLayout -> {
-                changeState()
-            }
             binding.lettuceLayout -> {
 
             }
@@ -57,7 +41,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
             }
             binding.confirmBtn -> {
-                binding.mainFrame.panelState = SlidingUpPanelLayout.PanelState.COLLAPSED
+
             }
             binding.changeBtn -> {
                 val intent = Intent(this, ControlFarmActivity::class.java)

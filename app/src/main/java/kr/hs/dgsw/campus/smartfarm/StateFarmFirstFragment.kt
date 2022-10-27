@@ -1,11 +1,12 @@
 package kr.hs.dgsw.campus.smartfarm
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import kr.hs.dgsw.campus.smartfarm.databinding.FragmentStateFarmFirstBinding
+
 
 class StateFarmFirstFragment : Fragment() {
     lateinit var binding: FragmentStateFarmFirstBinding
@@ -24,6 +25,20 @@ class StateFarmFirstFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        val bundle: Bundle = requireArguments()
+        val humidity: Int = bundle.getInt("humidity")
+        val temperature: Int = bundle.getFloat("temperature").toInt()
+        val waterLevel: Int = bundle.getInt("waterLevel")
+
+        binding.progressHumidity.progress = humidity
+        binding.tvHumidityValue.text = "${humidity}%"
+
+        binding.progressTemperature.progress = temperature
+        binding.tvTemperatureValue.text = "${temperature}°C"
+
+        binding.progressLevel.progress = waterLevel
+        binding.tvLevelValue.text = "${waterLevel}L"
     }
 
 }
