@@ -24,6 +24,7 @@ color purple_700
 color round_check_color
 color teal_200
 color teal_700
+color text_gray
 color thermometer_color
 color value_gray
 color white
@@ -75,6 +76,7 @@ id background_img_sunshine
 id background_img_temperature
 id background_img_ventilator
 id bottom_layout
+id center_text
 id change_btn
 id change_img
 id confirm_btn
@@ -82,6 +84,7 @@ id control_title
 id control_vp
 id control_vp_indicator
 id drawer
+id end_text
 id farm_title
 id first_floor_layout
 id first_floor_text
@@ -111,6 +114,7 @@ id rcv_history
 id second_floor_layout
 id second_floor_text
 id select_title
+id start_text
 id state_title
 id sunshine_title
 id switch_led

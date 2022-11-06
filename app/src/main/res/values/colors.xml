@@ -28,4 +28,5 @@
     <color name="background_blue">#EDF3FF</color>
     <color name="progress_blue">#B34FB8F7</color>
     <color name="half_blue">#BFE3F6</color>
+    <color name="text_gray">#9C9C9C</color>
 </resources>

@@ -33,6 +33,9 @@ public class HistoryListItemBindingImpl extends HistoryListItemBinding  {
         sViewsWithIds.put(R.id.level_title, 17);
         sViewsWithIds.put(R.id.progress_level, 18);
         sViewsWithIds.put(R.id.tv_level_value, 19);
+        sViewsWithIds.put(R.id.start_text, 20);
+        sViewsWithIds.put(R.id.center_text, 21);
+        sViewsWithIds.put(R.id.end_text, 22);
     }
     // views
     // variables
@@ -41,7 +44,7 @@ public class HistoryListItemBindingImpl extends HistoryListItemBinding  {
     // Inverse Binding Event Handlers
 
     public HistoryListItemBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 20, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 23, sIncludes, sViewsWithIds));
     }
     private HistoryListItemBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
@@ -49,6 +52,8 @@ public class HistoryListItemBindingImpl extends HistoryListItemBinding  {
             , (android.widget.ImageView) bindings[8]
             , (android.widget.ImageView) bindings[16]
             , (android.widget.ImageView) bindings[12]
+            , (android.widget.TextView) bindings[21]
+            , (android.widget.TextView) bindings[22]
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[0]
             , (android.widget.TextView) bindings[9]
             , (android.widget.TextView) bindings[4]
@@ -60,6 +65,7 @@ public class HistoryListItemBindingImpl extends HistoryListItemBinding  {
             , (android.widget.ProgressBar) bindings[10]
             , (android.widget.ProgressBar) bindings[18]
             , (android.widget.ProgressBar) bindings[14]
+            , (android.widget.TextView) bindings[20]
             , (android.widget.TextView) bindings[13]
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[1]
             , (android.widget.TextView) bindings[11]
@@ -75,7 +81,7 @@ public class HistoryListItemBindingImpl extends HistoryListItemBinding  {
     @Override
     public void invalidateAll() {
         synchronized(this) {
-                mDirtyFlags = 0x2L;
+                mDirtyFlags = 0x1L;
         }
         requestRebind();
     }
@@ -93,17 +99,7 @@ public class HistoryListItemBindingImpl extends HistoryListItemBinding  {
     @Override
     public boolean setVariable(int variableId, @Nullable Object variable)  {
         boolean variableSet = true;
-        if (BR.history == variableId) {
-            setHistory((kr.hs.dgsw.campus.smartfarm.HistoryData) variable);
-        }
-        else {
-            variableSet = false;
-        }
             return variableSet;
-    }
-
-    public void setHistory(@Nullable kr.hs.dgsw.campus.smartfarm.HistoryData History) {
-        this.mHistory = History;
     }
 
     @Override
@@ -127,8 +123,7 @@ public class HistoryListItemBindingImpl extends HistoryListItemBinding  {
     // dirty flag
     private  long mDirtyFlags = 0xffffffffffffffffL;
     /* flag mapping
-        flag 0 (0x1L): history
-        flag 1 (0x2L): null
+        flag 0 (0x1L): null
     flag mapping end*/
     //end
 }

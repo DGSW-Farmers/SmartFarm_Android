@@ -10,12 +10,10 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.databinding.Bindable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
 import java.lang.Deprecated;
 import java.lang.Object;
-import kr.hs.dgsw.campus.smartfarm.HistoryData;
 import kr.hs.dgsw.campus.smartfarm.R;
 
 public abstract class HistoryListItemBinding extends ViewDataBinding {
@@ -30,6 +28,12 @@ public abstract class HistoryListItemBinding extends ViewDataBinding {
 
   @NonNull
   public final ImageView backgroundImgTemperature;
+
+  @NonNull
+  public final TextView centerText;
+
+  @NonNull
+  public final TextView endText;
 
   @NonNull
   public final ConstraintLayout historyLayout;
@@ -65,6 +69,9 @@ public abstract class HistoryListItemBinding extends ViewDataBinding {
   public final ProgressBar progressTemperature;
 
   @NonNull
+  public final TextView startText;
+
+  @NonNull
   public final TextView temperatureTitle;
 
   @NonNull
@@ -79,22 +86,21 @@ public abstract class HistoryListItemBinding extends ViewDataBinding {
   @NonNull
   public final TextView tvTemperatureValue;
 
-  @Bindable
-  protected HistoryData mHistory;
-
   protected HistoryListItemBinding(Object _bindingComponent, View _root, int _localFieldCount,
       ImageView arrowBtn, ImageView backgroundImgHumidity, ImageView backgroundImgLevel,
-      ImageView backgroundImgTemperature, ConstraintLayout historyLayout, TextView humidityTitle,
-      TextView itemEnd, ImageView itemImg, TextView itemStart, ConstraintLayout itemStateLayout,
-      TextView itemTitle, TextView levelTitle, ProgressBar progressHumidity,
-      ProgressBar progressLevel, ProgressBar progressTemperature, TextView temperatureTitle,
-      ConstraintLayout topLayout, TextView tvHumidityValue, TextView tvLevelValue,
-      TextView tvTemperatureValue) {
+      ImageView backgroundImgTemperature, TextView centerText, TextView endText,
+      ConstraintLayout historyLayout, TextView humidityTitle, TextView itemEnd, ImageView itemImg,
+      TextView itemStart, ConstraintLayout itemStateLayout, TextView itemTitle, TextView levelTitle,
+      ProgressBar progressHumidity, ProgressBar progressLevel, ProgressBar progressTemperature,
+      TextView startText, TextView temperatureTitle, ConstraintLayout topLayout,
+      TextView tvHumidityValue, TextView tvLevelValue, TextView tvTemperatureValue) {
     super(_bindingComponent, _root, _localFieldCount);
     this.arrowBtn = arrowBtn;
     this.backgroundImgHumidity = backgroundImgHumidity;
     this.backgroundImgLevel = backgroundImgLevel;
     this.backgroundImgTemperature = backgroundImgTemperature;
+    this.centerText = centerText;
+    this.endText = endText;
     this.historyLayout = historyLayout;
     this.humidityTitle = humidityTitle;
     this.itemEnd = itemEnd;
@@ -106,18 +112,12 @@ public abstract class HistoryListItemBinding extends ViewDataBinding {
     this.progressHumidity = progressHumidity;
     this.progressLevel = progressLevel;
     this.progressTemperature = progressTemperature;
+    this.startText = startText;
     this.temperatureTitle = temperatureTitle;
     this.topLayout = topLayout;
     this.tvHumidityValue = tvHumidityValue;
     this.tvLevelValue = tvLevelValue;
     this.tvTemperatureValue = tvTemperatureValue;
-  }
-
-  public abstract void setHistory(@Nullable HistoryData history);
-
-  @Nullable
-  public HistoryData getHistory() {
-    return mHistory;
   }
 
   @NonNull

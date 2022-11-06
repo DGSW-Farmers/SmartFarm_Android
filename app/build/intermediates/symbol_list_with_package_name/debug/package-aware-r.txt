@@ -1814,6 +1814,7 @@ color teal_700
 color test_color
 color test_mtrl_calendar_day
 color test_mtrl_calendar_day_selected
+color text_gray
 color thermometer_color
 color tooltip_background_dark
 color tooltip_background_light
@@ -2718,6 +2719,7 @@ id center
 id centerCrop
 id centerInside
 id center_horizontal
+id center_text
 id center_vertical
 id chain
 id chain2
@@ -2803,6 +2805,7 @@ id edittext_dropdown_noneditable
 id elastic
 id end
 id endToStart
+id end_text
 id enterAlways
 id enterAlwaysCollapsed
 id exitUntilCollapsed
@@ -3061,6 +3064,7 @@ id start
 id startHorizontal
 id startToEnd
 id startVertical
+id start_text
 id state_title
 id staticLayout
 id staticPostLayout
