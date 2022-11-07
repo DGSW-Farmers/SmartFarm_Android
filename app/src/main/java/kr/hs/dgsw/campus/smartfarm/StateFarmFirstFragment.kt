@@ -28,7 +28,7 @@ class StateFarmFirstFragment : Fragment() {
 
         val bundle: Bundle = requireArguments()
         val humidity: Int = bundle.getInt("humidity")
-        val temperature: Int = bundle.getFloat("temperature").toInt()
+        val temperature: Int = bundle.getInt("temperature")
         val waterLevel: Int = bundle.getInt("waterLevel")
 
         binding.progressHumidity.progress = humidity
