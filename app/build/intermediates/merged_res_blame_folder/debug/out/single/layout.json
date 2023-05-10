@@ -20,15 +20,15 @@
         "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-main-36:\\layout\\history_list_item.xml"
     },
     {
+        "merged": "kr.hs.dgsw.campus.smartfarm.app-mergeDebugResources-33:/layout/fragment_state_farm_second.xml",
+        "source": "kr.hs.dgsw.campus.smartfarm.app-main-36:/layout/fragment_state_farm_second.xml"
+    },
+    {
         "merged": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-mergeDebugResources-33:\\layout\\fragment_control_farm.xml",
         "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-main-36:\\layout\\fragment_control_farm.xml"
     },
     {
         "merged": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-mergeDebugResources-33:\\layout\\activity_main.xml",
         "source": "C:\\Users\\DGSW\\.gradle\\daemon\\7.3.3\\kr.hs.dgsw.campus.smartfarm.app-main-36:\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "kr.hs.dgsw.campus.smartfarm.app-mergeDebugResources-33:/layout/history_list_item.xml",
-        "source": "kr.hs.dgsw.campus.smartfarm.app-main-36:/layout/history_list_item.xml"
     }
 ]
